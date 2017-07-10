@@ -1,6 +1,34 @@
 # Python 3 + Anaconda (data science ecosystem)
 
-![navigator](img/anaconda-navigator.png)
+ * https://www.python.org/dev/peps/pep-0020/
+
+![navigator](https://github.com/josoroma/tf/blob/master/img/anaconda-navigator.png)
+
+```
+import this
+```
+
+### The Zen of Python, by Tim Peters
+
+ * Beautiful is better than ugly.
+ * Explicit is better than implicit.
+ * Simple is better than complex.
+ * Complex is better than complicated.
+ * Flat is better than nested.
+ * Sparse is better than dense.
+ * Readability counts.
+ * Special cases aren't special enough to break the rules.
+ * Although practicality beats purity.
+ * Errors should never pass silently.
+ * Unless explicitly silenced.
+ * In the face of ambiguity, refuse the temptation to guess.
+ * There should be one-- and preferably only one --obvious way to do it.
+ * Although that way may not be obvious at first unless you're Dutch.
+ * Now is better than never.
+ * Although never is often better than *right* now.
+ * If the implementation is hard to explain, it's a bad idea.
+ * If the implementation is easy to explain, it may be a good idea.
+ * Namespaces are one honking great idea -- let's do more of those!
 
 ## Xcode
 
@@ -152,7 +180,7 @@ atom ~/.bash_profile
 export PATH="/usr/local/anaconda3/bin:/usr/local/miniconda3/bin:$PATH"
 ```
 
-![launchpad](img/launchpad-anaconda.png)
+![launchpad](https://github.com/josoroma/tf/blob/master/img/launchpad-anaconda.png)
 
 Note: Cask anaconda installs files under `/usr/local`. The presence of such
 files can cause warnings when running `brew doctor`, which is considered
@@ -228,13 +256,15 @@ conda search numpy
 conda install --name tf numpy
 ```
 
-![conda](img/conda-install-package.png)
+![conda](https://github.com/josoroma/tf/blob/master/img/conda-install-package.png)
 
 ## Launch anaconda navigator
 
  * https://docs.continuum.io/anaconda/navigator/getting-started
 
 ```
+cd ~/Sites/tf
+
 anaconda-navigator
 ```
 
@@ -244,16 +274,16 @@ anaconda-navigator
 
 ### Install
 
-![jupyter](img/install-jupyter.png)
+![jupyter](https://github.com/josoroma/tf/blob/master/img/install-jupyter.png)
 
 ### Open
 
-![open](img/open-jupyter.png)
+![open](https://github.com/josoroma/tf/blob/master/img/open-jupyter.png)
 
 ### New
 
-![new](img/new-notebook.png)
+![new](https://github.com/josoroma/tf/blob/master/img/new-notebook.png)
 
 ### Run
 
-![run](img/run-notebook.png)
+![run](https://github.com/josoroma/tf/blob/master/img/run-notebook.png)
