@@ -232,16 +232,16 @@ conda list
 
 # packages in environment at /usr/local/anaconda3/envs/tf:
 #
-openssl                   1.0.2l                        0  
-pip                       9.0.1                    py36_1  
-python                    3.6.1                         2  
-readline                  6.2                           2  
-setuptools                27.2.0                   py36_0  
-sqlite                    3.13.0                        0  
-tk                        8.5.18                        0  
-wheel                     0.29.0                   py36_0  
-xz                        5.2.2                         1  
-zlib                      1.2.8                         3  
+openssl                   1.0.2l                        0
+pip                       9.0.1                    py36_1
+python                    3.6.1                         2
+readline                  6.2                           2
+setuptools                27.2.0                   py36_0
+sqlite                    3.13.0                        0
+tk                        8.5.18                        0
+wheel                     0.29.0                   py36_0
+xz                        5.2.2                         1
+zlib                      1.2.8                         3
 ```
 
 ### Search for a package
@@ -265,7 +265,11 @@ conda install --name tf numpy
 ```
 cd ~/Sites/tf
 
+source activate tf
+
 anaconda-navigator
+
+jupyter notebook
 ```
 
 ## Jupyter notebook
@@ -277,6 +281,8 @@ anaconda-navigator
 ![jupyter](https://github.com/josoroma/tf/blob/master/img/install-jupyter.png)
 
 ### Open
+
+## jupyter notebook
 
 ![open](https://github.com/josoroma/tf/blob/master/img/open-jupyter.png)
 
